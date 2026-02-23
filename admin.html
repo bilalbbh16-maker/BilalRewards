@@ -1,0 +1,32 @@
+here<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel - BilalRewards</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="config/firebase-config.js"></script>
+<script src="config/settings.js"></script>
+<script src="js/admin.js"></script>
+</head>
+<body>
+<header>
+  <h1>Admin Panel</h1>
+</header>
+
+<main>
+  <section>
+    <label for="admin-pass">Enter Admin Password:</label>
+    <input type="password" id="admin-pass">
+    <button onclick="loginAdmin()">Login</button>
+    <p id="admin-msg"></p>
+  </section>
+
+  <section id="admin-dashboard" style="display:none;">
+    <h2>Dashboard</h2>
+    <p>Manage Ads, Smart Links, Tasks, Withdrawals, Prices</p>
+    <div id="admin-controls"></div>
+  </section>
+</main>
+</body>
+</html>

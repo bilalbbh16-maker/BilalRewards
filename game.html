@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BilalRewards - Games</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="config/firebase-config.js"></script>
+<script src="js/game.js"></script>
+</head>
+<body>
+<header>
+  <h1>Games</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="tasks.html">Tasks</a>
+    <a href="withdraw.html">Withdraw</a>
+  </nav>
+</header>
+
+<main>
+  <section id="snake-game">
+    <h2>Snake Game</h2>
+    <canvas id="snakeCanvas" width="400" height="400"></canvas>
+    <p>Earn crypto by playing! Every 60 seconds you can get rewards.</p>
+  </section>
+
+  <section id="canary-game">
+    <h2>Canary Clicker 🐦</h2>
+    <button id="canary-btn">Click the Canary!</button>
+    <p>Every 10 clicks → Watch a video ad</p>
+    <p>Total Clicks: <span id="canary-clicks">0</span></p>
+  </section>
+</main>
+</body>
+  </html>
